@@ -1,0 +1,244 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F2F3F4;
+	padding: 40px; /* Top Right Bot and Left */
+}
+
+
+
+.wrapper {
+	display: flex;
+	flex-direction: row-reverse;
+	background: #909497;					/*#EE7D7D;*/
+	width: 1200px;
+	margin: 0 auto; /*External indets(зовнішні відступи), 0 - Top and Bot 0px*/
+					/*auto - set L and R automatically*/
+	box-shadow: 0px 8px 8px rgba(0, 0.5, 0, 0.5);
+}
+
+
+
+					/*Main content*/
+
+.main_content{
+	/*padding-top: 88px;
+	padding-bottom: 88px;
+	padding-left: 88px;
+	padding-right: 88px;*/
+	
+			/*Top Right Bot Left*/
+	padding: 88px 88px 88px 88px;
+}
+
+
+
+
+					/* ABOUT ME */
+
+.my_profession {
+	margin: 0 0 18px 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 17px;
+	color: #1B2631;
+}
+/*MR ZHOPOSRANCHIK*/
+.my_name {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 17px;
+	color: #1B2631;
+	margin: 0 0 28px 0;
+}
+/*DESCRIPTION*/
+.my_descr{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	width: 670px;
+}
+
+					/*PROJECTS*/
+.main_content_title{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #452f1f;
+	margin: 0 0 8px 0;
+}
+/* <OL> */
+.project_list{
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+/* <LI> */
+.project_item{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+.project_container{
+	margin: 0 0 48px 0;
+}
+
+.project_item_descr {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.project_item_link{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration-line: underline;
+	color: #e3dd84;
+}
+
+/*	WORK	*/
+
+.education{
+	font-size: 25px;
+	line-height: 10px;
+}
+
+.work_exp_container{
+	margin-bottom: 48px;
+}
+
+.work_exp_pos{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin: 0;
+}
+
+.work_exp_place{
+	margin-bottom: 16px;
+}
+
+.work_exp_comp{
+	color: #5B2C6F;
+}
+
+.work_period{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 15px;
+	color: #F4ECF7;
+	margin: 12px 0 8px 0;
+}
+
+.work_duties{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.work_duty_list{
+	padding: 0 0 0 14px;
+	margin: 0;
+}
+
+/*	---------------------------SIDEBAR---------------------------	*/
+
+.sidebar{
+	height: 1200px;
+	
+	position: relative;
+	top: 20px;
+	left: 30px;
+	
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	
+	background-color: #F2F3F4;
+}
+
+
+.contacts_container,
+.tech_skills_container,
+.soft_skills_container{
+	margin: 30px 0 0 40px;
+}
+
+.sidebar_title{
+	font-size: normal;
+	font-weight: 800;
+	font-size: 25px;
+	line-weight: 30px;
+	margin-bottom: 8px;
+	color: #1B2631;
+}
+
+/* CONTACTS */
+.contacts_type{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-weight: 24px;
+	margin-right: 8px;
+	
+	
+}
+
+.contacts_item{
+	margin: 2px;
+	margin-bottom: 10px;
+}
+
+.contacts_number{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-weight: 24px;
+	color: #3498DB;
+}
+
+.contacts_email{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-weight: 24px;
+	color: #3498DB;
+}
+
+/* SKILLS */
+
+.skills_list{
+	margin: 0;
+	padding: 0 0 0 0px;
+}
+
+.skills_list_item{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: #283747;
+}
+
+.skills_list_text{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-weight: 24px;
+	color: #000000;
+}
+
+
+
+
